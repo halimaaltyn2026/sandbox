@@ -12,7 +12,7 @@ function getWelcomeMessage(user) {
     }
 }
 
-// Ваш рабочий код для формы
+// Рабочий код для формы
 const form = document.querySelector('form');
 const email = document.getElementById('email');
 form.addEventListener('submit', (e) => {
@@ -27,7 +27,7 @@ form.addEventListener('submit', (e) => {
         userName = 'Халима (Админ)';
     }
 
-    // Создаем объект пользователя по нашему строгому интерфейсу User!
+    // Содаю объект пользователя по нашему строгому интерфейсу User!
     const currentUser = {
         id: Date.now(), // Уникальный ID на основе времени
         name: userName,
@@ -35,6 +35,6 @@ form.addEventListener('submit', (e) => {
         email: email.value
     };
 
-    // Выводим сообщение, сгенерированное функцией
+    // Вывожу сообщение, сгенерированное функцией
     alert(getWelcomeMessage(currentUser));
 });
