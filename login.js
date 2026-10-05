@@ -1,6 +1,4 @@
 
-
-
 // Функция для создания приветственного сообщения
 function getWelcomeMessage(user) {
     if (user.role === 'admin') {
