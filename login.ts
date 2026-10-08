@@ -8,7 +8,7 @@ interface User {
 }
 
 // 2. Указываем функции, что аргумент 'user' должен строго соответствовать нашему интерфейсу 'User'
-function getWelcomeMessage(user: User): string { // ': string' означает, что функция обязательно вернет строку
+function getWelcomeMessage(user: User): string {
     if (user.role === 'admin') {
         return `Добро пожаловать, Администратор ${user.name}! Доступ к панели открыт.`;
     } else if (user.role === 'user') {
