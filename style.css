@@ -10,6 +10,7 @@ body {
             padding: 10px;
             box-sizing: border-box;
         }
+
         .login-card {
             background: #ffffff;
             padding: 30px;
@@ -19,15 +20,18 @@ body {
             max-width: 400px;
             box-sizing: border-box;
         }
+
         .login-card h2 {
             margin-top: 0;
             margin-bottom: 20px;
             color: #333333;
             text-align: center;
         }
+
         .input-group {
             margin-bottom: 20px;
         }
+
         .input-group label {
             display: block;
             margin-bottom: 8px;
@@ -35,6 +39,7 @@ body {
             font-size: 14px;
             font-weight: 600;
         }
+
         .input-group input {
             width: 100%;
             padding: 12px;
@@ -44,10 +49,12 @@ body {
             box-sizing: border-box;
             transition: border-color 0.3s ease;
         }
+
         .input-group input:focus {
             border-color: #764ba2;
             outline: none;
         }
+
         .submit-btn {
             width: 100%;
             padding: 14px;
@@ -60,12 +67,15 @@ body {
             cursor: pointer;
             transition: background 0.3s ease, transform 0.1s ease;
         }
+
         .submit-btn:hover {
             background: #5a3782;
         }
+
         .submit-btn:active {
             transform: scale(0.98);
         }
+
         .forgot-link {
             display: block;
             text-align: center;
@@ -74,6 +84,8 @@ body {
             text-decoration: none;
             font-size: 14px;
         }
+
         .forgot-link:hover {
             text-decoration: underline;
         }
+
